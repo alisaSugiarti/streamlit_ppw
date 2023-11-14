@@ -69,3 +69,4 @@ zipp==3.10.0
 beautifulsoup4==4.12.2
 nltk==3.6.5
 wordcloud>=1.9.2
+yellowbrick==6.7.1
