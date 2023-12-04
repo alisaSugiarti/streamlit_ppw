@@ -71,4 +71,4 @@ nltk==3.6.5
 wordcloud>=1.9.2
 yellowbrick>=1.5
 openpyxl==3.1.2
-networkx==2.6.3
+networkx>=2.6.3
