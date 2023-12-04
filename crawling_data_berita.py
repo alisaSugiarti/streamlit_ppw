@@ -280,7 +280,7 @@ def main():
                 Tujuan utama PageRank adalah mengukur seberapa penting atau otoritatif sebuah halaman web dengan mempertimbangkan struktur tautan antar halaman-halaman tersebut. Ide dasar di balik PageRank adalah bahwa halaman web yang banyak dihubungkan oleh halaman-halaman lain memiliki tingkat otoritas yang lebih tinggi.''')
 
         for node, rank in pagerank.items():
-            print(f"Kalimat {node + 1}: {rank}")
+            st.write(f"Kalimat {node + 1}: {rank}")
 
         # Menampilkan 3 kalimat dengan PageRank tertinggi
         sorted_pagerank = sorted(
