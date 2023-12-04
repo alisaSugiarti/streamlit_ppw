@@ -289,7 +289,7 @@ def main():
         st.write("=============================")
         st.subheader("Top 4 sentences based on PageRank:")
         for node, rank in sorted_pagerank[:4]:
-            st.write(sentence[node + 1])
+            st.write(sentence[node])
 
         st.write("=============================")
         st.subheader("Top 4 kalimat based on PageRank:")
